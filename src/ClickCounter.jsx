@@ -18,7 +18,7 @@ const ClickCounter = () => {
         const date = new Date();
         const hours = date.getHours();
         const minutes = date.getMinutes();
-        const formattedTime = `${hours}:${minutes}`;
+        const formattedTime = `${hours}:${minutes}MIN`;
         const message = `${formattedTime} - Total clicks: ${totalClicksRef.current}`;
         setTimeList(prevTimeList => [
           ...prevTimeList,
