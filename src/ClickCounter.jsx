@@ -28,7 +28,7 @@ const ClickCounter = () => {
           setHighestClicks(totalClicksRef.current);
           alert("Congratulations you scored Highest Click"); 
         }
-      }, 2000);
+      }, 10000);
     }
     totalClicksRef.current += 1;
     setCount(prevCount => prevCount + 1);
